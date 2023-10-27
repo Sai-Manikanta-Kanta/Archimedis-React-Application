@@ -1,0 +1,55 @@
+.page-seven-wrapper{
+    width: 100vw;
+    height: 58vw;
+    background-color: #2D307B;
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#unit-one , #unit-two , #unit-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.unit-icon{
+ width: 7vw;
+ height: 7vw;
+}
+.unit-count{
+    color: #22BDEF;
+    font-family: "Manrope";
+    font-size: 7vw;
+    font-weight: 800;
+}
+.unit-text{
+    color: #FFFFFF;
+    font-family: "Manrope";
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+@media screen and (min-width:1440px)
+{
+    .page-seven-wrapper{
+       
+        height: 25vw;
+        margin-top: 2vw;
+       
+    }
+    .unit-icon{
+        width: 3vw;
+        height: 3vw;
+       }
+       .unit-count{
+           
+           font-size: 3vw;
+           
+       }
+       .unit-text{
+           
+           font-size: 1vw;
+         
+       }
+}

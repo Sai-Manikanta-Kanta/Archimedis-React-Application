@@ -1,0 +1,109 @@
+.page-ten-wrapper {
+  width: 100vw;
+  height: 130vw;
+  background-color: #f5f8ff;
+}
+#page-ten-heading {
+  font-family: "Manrope";
+  font-size: 6vw;
+  font-weight: 800;
+  color: #200e32;
+  text-align: center;
+  padding-top: 10vw;
+}
+#card-wrapper-page-10 {
+  width: 88vw;
+  height: 95vw;
+  background-color: white;
+  margin-left: 6vw;
+  margin-top: 3vw;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#card-heading {
+  font-family: "Manrope";
+  font-size: 5vw;
+  font-weight: 700;
+  color: #200e32;
+  margin-left: 3vw;
+}
+#card-text {
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 700;
+  color: #200e32;
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+#profile-icon {
+  width: 16vw;
+  height: 16vw;
+}
+#profile-name {
+  font-family: "Manrope";
+  font-size: 4vw;
+  font-weight: 700;
+  color: #200e32;
+}
+#profile-job {
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 400;
+  color: #200e32;
+}
+#flex-division {
+  display: flex;
+  flex-direction: column;
+}
+#contianer-3 {
+  display: flex;
+  margin-left: 3vw;
+  align-items: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-ten-wrapper {
+    height: 35vw;
+  }
+  #page-ten-heading {
+    font-size: 3vw;
+    font-weight: 800;
+
+    padding-top: 2vw;
+  }
+  #here-break {
+    display: none;
+  }
+  #card-wrapper-page-10 {
+    width: 59vw;
+    height: 23vw;
+
+    margin-left: 20vw;
+    margin-top: 3vw;
+  }
+  #card-heading {
+    font-size: 2vw;
+  }
+  #card-text {
+    font-size: 1vw;
+  }
+  #profile-icon {
+    width: 4vw;
+    height: 4vw;
+  }
+  #profile-name {
+    font-family: "Manrope";
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #200e32;
+  }
+  #profile-job {
+    font-family: "Manrope";
+    font-size: 1vw;
+    font-weight: 400;
+    color: #200e32;
+  }
+}

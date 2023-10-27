@@ -1,0 +1,60 @@
+.navigation-bar {
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#archimedis-logo {
+  width: 21vw;
+  height: 10vw;
+  margin-left: 6vw;
+}
+#menu-logo {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 6vw;
+}
+#option-text {
+  font-family: "Manrope";
+  font-size: 4vw;
+  font-weight: 700;
+}
+#option-plus {
+  font-family: "Manrope";
+  font-size: 4vw;
+  font-weight: 700;
+}
+#desktop-options-wrapper {
+  visibility: hidden;
+}
+@media screen and (min-width: 1440px) {
+  .navigation-bar {
+    width: 100vw;
+    height: 7vw;
+    display: flex;
+    border-bottom: 1px solid gray;
+  }
+  #archimedis-logo {
+    width: 11vw;
+    height: 5vw;
+    margin-left: 8vw;
+  }
+  #menu-logo {
+    visibility: hidden;
+  }
+  #desktop-options-wrapper {
+    visibility: visible;
+    width: 50vw;
+    height: 7vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30vw;
+  }
+  .desktop-text {
+    font-family: "Manrope";
+    font-size: 1vw;
+    font-weight: 700;
+  }
+}

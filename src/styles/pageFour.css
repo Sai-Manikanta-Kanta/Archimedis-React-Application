@@ -1,0 +1,77 @@
+.page-four-wrapper {
+  width: 100vw;
+  height: 130vw;
+ 
+}
+#manufacturing-image {
+  width: 100vw;
+  height: 69vw;
+}
+#manufacturing-heading {
+  margin-top: 7vw;
+  font-family: "Manrope";
+  font-size: 6vw;
+  font-weight: 800;
+  color: #200e32;
+  margin-left: 7vw;
+}
+#manufacturing-text {
+  margin-top: 3vw;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 500;
+  color: #18191f;
+
+  text-align-last: justify;
+
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+
+#manufacturing-view-more-btn {
+  width: 40vw;
+  height: 10vw;
+  background-color: #2d307b;
+  margin-left: 7vw;
+  margin-top: 3vw;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 2vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-four-wrapper {
+    width: 100vw;
+    height: 40vw;
+
+    display: flex;
+
+    justify-content: space-around;
+  }
+
+  #manufacturing-image {
+    width: 31vw;
+    height: 34vw;
+  }
+  #manufacturing-heading {
+    font-size: 3vw;
+  }
+  #manufacturing-text {
+    font-size: 1vw;
+    width: 40vw;
+  }
+  #manufacturing-view-more-btn {
+    width: 13vw;
+    height: 3vw;
+    background-color: #2d307b;
+    margin-left: 7vw;
+    margin-top: 3vw;
+    font-family: "Manrope";
+    font-size: 1vw;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 1vw;
+  }
+}

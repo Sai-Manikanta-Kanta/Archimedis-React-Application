@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navigation from "./components/Navigation";
+import PageEight from "./components/PageEight";
+import PageEleven from "./components/PageEleven";
+import PageFivee from "./components/PageFivee";
+import PageFour from "./components/PageFour";
+import PageNine from "./components/PageNine";
+import PageOne from "./components/PageOne";
+import PageSeven from "./components/PageSeven";
+import PageSix from "./components/PageSix";
+import PageTen from "./components/PageTen";
+import PageThree from "./components/PageThree";
+import PageTwelve from "./components/PageTwelve";
+import PageTwo from "./components/PageTwo";
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <PageOne />
+      <PageTwo />
+      <PageThree/>
+      <PageFour/>
+      <PageFivee/>
+      <PageSix/>
+      <PageSeven/>
+      <PageEight/>
+      <PageNine/>
+      <PageTen/>
+      <PageEleven/>
+      <PageTwelve title="Board of Directors"   />
+      <PageTwelve title="Leadership Team"   />
+      <PageTwelve title=""   />
     </div>
   );
 }

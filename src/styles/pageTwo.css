@@ -1,0 +1,137 @@
+.page-two-wrapper {
+  width: 100vw;
+  height: 127vw;
+  background-color: aliceblue;
+}
+.page-two-container-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: "Manrope";
+  font-weight: 800;
+  font-size: 6vw;
+  color: #200e32;
+  padding-top: 10vw;
+}
+.page-two-container-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: "Manrope";
+  font-weight: 500;
+  font-size: 3vw;
+  color: #200e32;
+  margin-top: 3vw;
+}
+.page-two-container-three {
+  margin-top: 20vw;
+  display: grid;
+  grid-template-columns: 33.3vw 33.3vw 33.3vw;
+  grid-template-rows: 18vw 18vw 18vw;
+}
+.card {
+  width: 30vw;
+  height: 15vw;
+  background-color: white;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-image {
+  width: 16vw;
+  height: 8vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-two-wrapper {
+    height: 55vw;
+  }
+
+  .page-two-container-one {
+    font-size: 3vw;
+
+    padding-top: 3vw;
+  }
+  #trusted-break {
+    display: none;
+  }
+  .page-two-container-two {
+    font-size: 1.5vw;
+
+    margin-top: 2vw;
+  }
+  .page-two-container-three {
+    margin-top: 3vw;
+    margin-left: 4vw;
+    grid-template-columns: 18vw 18vw 18vw 20vw 18vw;
+    grid-template-rows: 7vw 7vw 7vw 7vw 7vw;
+  }
+  #lupin-card {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #sigma-card {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  #shield-card {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  #fourrts-card {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #clear-nasal-card {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #ipca-card {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  #swisscore-card {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  #curatio-card {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  #ergoslife-card {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .card {
+    width: 17vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-image {
+    width: 12vw;
+    height: 4vw;
+  }
+}

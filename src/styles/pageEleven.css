@@ -1,0 +1,52 @@
+.page-eleven-wrapper {
+  width: 100vw;
+  height: 100vw;
+ 
+}
+#page-11-heading {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 7vw;
+  text-align: center;
+  color: #200e32;
+  padding-top: 10vw;
+}
+#page-11-image {
+  width: 94vw;
+  height: 32vw;
+  margin-left: 3vw;
+  margin-top: 5vw;
+}
+#page-11-text {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 3vw;
+  text-align: center;
+  color: #200e32;
+  padding-top: 10vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-eleven-wrapper {
+    height: 45vw;
+  }
+  #page-11-heading {
+    font-size: 3vw;
+
+    padding-top: 2vw;
+  }
+  #page-11-image {
+    width: 66vw;
+    height: 23vw;
+    margin-left: 17vw;
+    margin-top: 2vw;
+  }
+  #page-11-text {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 1.5vw;
+    text-align: center;
+    color: #200e32;
+    padding-top: 2vw;
+  }
+}

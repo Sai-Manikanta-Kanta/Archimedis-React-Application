@@ -1,0 +1,152 @@
+.page-twelve-wrapper {
+  width: 100vw;
+  height: 120vw;
+}
+#page-12-heading {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 6vw;
+  text-align: center;
+  color: #200e32;
+  padding-top: 10vw;
+}
+
+#page-12-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 7vw;
+}
+#page-12-unit-1,
+#page-12-unit-2,
+#page-12-unit-3,
+#page-12-unit-4 {
+  flex-basis: 40vw;
+  height: 40vw;
+  margin-top: 5vw;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#page-12-unit-1-image-wrapper {
+  width: 25vw;
+  height: 25vw;
+  background-color: #c3f0ff;
+}
+#page-12-unit-2-image-wrapper {
+  width: 25vw;
+  height: 25vw;
+  background-color: #ffebcd;
+}
+#page-12-unit-3-image-wrapper {
+  width: 25vw;
+  height: 25vw;
+  background-color: #ffdbeb;
+}
+#page-12-unit-4-image-wrapper {
+  width: 25vw;
+  height: 25vw;
+  background-color: #dddfff;
+}
+
+#page-12-unit-1-dir-name,
+#page-12-unit-2-dir-name,
+#page-12-unit-3-dir-name,
+#page-12-unit-4-dir-name {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 3vw;
+
+  color: #200e32;
+}
+
+#page-12-unit-1-dir-role,
+#page-12-unit-2-dir-role,
+#page-12-unit-3-dir-role,
+#page-12-unit-4-dir-role {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 2vw;
+
+  color: #200e32;
+}
+#dir-1-image,
+#dir-2-image,
+#dir-3-image,
+#dir-4-image {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .page-twelve-wrapper {
+    width: 100vw;
+    height: 40vw;
+  }
+  #page-12-heading {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 2vw;
+    text-align: center;
+    color: #200e32;
+    padding-top: 3vw;
+  }
+  #page-12-container {
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  #page-12-unit-1,
+  #page-12-unit-2,
+  #page-12-unit-3,
+  #page-12-unit-4 {
+    height: 30vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+
+  #page-12-unit-1-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+    background-color: #c3f0ff;
+  }
+  #page-12-unit-2-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+    background-color: #ffebcd;
+  }
+  #page-12-unit-3-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+    background-color: #ffdbeb;
+  }
+  #page-12-unit-4-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+    background-color: #dddfff;
+  }
+  #page-12-unit-1-dir-name,
+  #page-12-unit-2-dir-name,
+  #page-12-unit-3-dir-name,
+  #page-12-unit-4-dir-name {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 1.5vw;
+
+    color: #200e32;
+  }
+
+  #page-12-unit-1-dir-role,
+  #page-12-unit-2-dir-role,
+  #page-12-unit-3-dir-role,
+  #page-12-unit-4-dir-role {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 1vw;
+
+    color: #200e32;
+  }
+}

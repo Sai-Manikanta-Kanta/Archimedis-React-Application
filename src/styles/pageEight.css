@@ -1,0 +1,138 @@
+.page-eight-wrapper {
+  width: 100vw;
+  height: 130vw;
+}
+#why-archimedis-heading {
+  padding-top: 10vw;
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 7vw;
+
+  color: #200e32;
+  text-align: center;
+}
+#why-archimedis-text {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 3vw;
+  color: #18191f;
+
+  text-align: center;
+}
+#why-archimedis-icons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+#why-unit-one,
+#why-unit-two,
+#why-unit-three,
+#why-unit-four {
+  flex-basis: 50vw;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#icon-wrapper-one {
+  width: 16vw;
+  height: 16vw;
+  background-color: #c3f0ff;
+  border-radius: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon-wrapper-two {
+  width: 16vw;
+  height: 16vw;
+  background-color: #ffebcd;
+  border-radius: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon-wrapper-three {
+  width: 16vw;
+  height: 16vw;
+  background-color: #ffdbeb;
+  border-radius: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#icon-wrapper-four {
+  width: 16vw;
+  height: 16vw;
+  background-color: #dddfff;
+  border-radius: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#robust-text,
+#capable-text,
+#latest-text,
+#consistent-text {
+  text-align: center;
+  color: #200e32;
+  font-family: "Manrope";
+  font-weight: 700;
+  font-size: 3vw;
+}
+.unit-icon {
+  width: 6vw;
+  height: 6vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-eight-wrapper {
+    width: 100vw;
+    height: 40vw;
+  }
+  #why-archimedis-heading {
+    padding-top: 2vw;
+
+    font-size: 3vw;
+  }
+  #why-archimedis-text {
+    font-size: 1vw;
+  }
+  #why-archimedis-icons-wrapper {
+    flex-wrap: nowrap;
+  }
+  #icon-wrapper-one {
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 3vw;
+  }
+  #icon-wrapper-two {
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 3vw;
+  }
+  #icon-wrapper-three {
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 3vw;
+  }
+  #icon-wrapper-four {
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 3vw;
+  }
+  .unit-icon {
+    width: 3vw;
+    height: 3vw;
+  }
+  #robust-text,
+  #capable-text,
+  #latest-text,
+  #consistent-text {
+    font-size: 1vw;
+  }
+}

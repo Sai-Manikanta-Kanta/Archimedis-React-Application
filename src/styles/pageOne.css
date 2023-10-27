@@ -1,0 +1,175 @@
+.page-one-wrapper {
+  width: 100vw;
+  height: 150vw;
+
+  margin-top: 15vw;
+}
+#formulating-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope";
+  font-size: 6vw;
+  font-weight: 800;
+  color: #200e32;
+}
+#science-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 500;
+  color: #200e32;
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+#two-buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3vw;
+}
+#watch-vidoe-btn {
+  width: 35vw;
+  height: 10vw;
+  background-color: #2d307b;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 2vw;
+  margin-right: 2vw;
+}
+#contact-us-btn {
+  width: 35vw;
+  height: 10vw;
+  background-color: #ffffff;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 600;
+  color: #2d307b;
+  border-radius: 2vw;
+  margin-right: 2vw;
+}
+.page-one-container-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+}
+#globe-image {
+  width: 91vw;
+  height: 55vw;
+}
+.page-one-container-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vw;
+}
+#card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65vw;
+  height: 15vw;
+  border: 1px solid gray;
+  background-color: aliceblue;
+  border-radius: 2vw;
+}
+#badge-image {
+  width: 8vw;
+  height: 8vw;
+}
+#uk-text {
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 700;
+}
+#clarity-break {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  #clarity-break {
+    display: block;
+  }
+  #fuel-break,
+  #consistency-break {
+    display: none;
+  }
+
+  #formulating-heading {
+    font-size: 3vw;
+  }
+  #science-text {
+    font-size: 1vw;
+    margin-left: 0vw;
+  }
+  #watch-vidoe-btn {
+    width: 13vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+  }
+  #contact-us-btn {
+    width: 13vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+  }
+  #globe-image {
+    width: 43vw;
+    height: 30vw;
+  }
+  #badge-image {
+    width: 3vw;
+    height: 3vw;
+  }
+  #uk-text {
+    font-size: 1vw;
+  }
+  #card-wrapper {
+    width: 24vw;
+    height: 6vw;
+
+    border-radius: 1vw;
+  }
+  .page-one-wrapper {
+    height: 40vw;
+    display: grid;
+    grid-template-columns: 50vw;
+    grid-template-rows: 40vw;
+    margin-top: 5vw;
+  }
+  .page-one-container-one {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10vw;
+  }
+  .page-one-container-three {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 12vw;
+    margin-right: 5vw;
+  }
+  .page-one-container-two {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+  }
+}

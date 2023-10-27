@@ -1,0 +1,93 @@
+.page-three-wrapper {
+  width: 100vw;
+  height: 167vw;
+ 
+}
+#page-title {
+  padding-top: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope";
+  font-size: 7vw;
+  font-weight: 800;
+  color: #200e32;
+}
+
+#formulations-image {
+  width: 100vw;
+  height: 69vw;
+}
+#formulations-heading {
+  margin-top: 7vw;
+  font-family: "Manrope";
+  font-size: 6vw;
+  font-weight: 800;
+  color: #200e32;
+  margin-left: 7vw;
+}
+#formulations-text {
+  margin-top: 3vw;
+  font-family: "Manrope";
+  font-size: 3vw;
+  font-weight: 500;
+  color: #18191f;
+
+  text-align-last: justify;
+
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
+#view-more-btn {
+    width: 40vw;
+    height: 10vw;
+    background-color: #2d307b;
+    margin-left: 7vw;
+    margin-top: 3vw;
+    font-family: "Manrope";
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 2vw;
+  }
+  
+@media screen and (min-width: 1440px) {
+  .page-three-wrapper {
+    width: 100vw;
+    height: 40vw;
+   
+  }
+  #page-title {
+    padding-top: 2vw;
+
+    font-size: 3vw;
+  }
+  #formulations-image {
+    width: 31vw;
+    height: 34vw;
+  }
+  #formulations-heading {
+    font-size: 3vw;
+  }
+  #formulations-text {
+    font-size: 1vw;
+    width: 40vw;
+  }
+  #view-more-btn {
+    width: 13vw;
+    height: 3vw;
+    background-color: #2d307b;
+    margin-left: 7vw;
+    margin-top: 3vw;
+    font-family: "Manrope";
+    font-size: 1vw;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 1vw;
+  }
+  .container-desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+}

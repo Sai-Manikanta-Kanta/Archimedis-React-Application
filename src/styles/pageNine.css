@@ -1,0 +1,65 @@
+.page-nine-wrapper {
+  width: 100vw;
+  height: 130vw;
+  background-color: #4bd3ff;
+}
+#page-nine-unit-one-title {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 6vw;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10vw;
+}
+#page-nine-unit-one-text {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 3vw;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5vw;
+}
+#page-nine-unit-one-coming-soon {
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 5vw;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5vw;
+}
+#cart-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vw;
+}
+#cart-image {
+  width: 53vw;
+  height: 66vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .page-nine-wrapper {
+    height: 30vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  #page-nine-unit-one-title {
+    font-size: 3vw;
+
+    padding-top: 10vw;
+  }
+  #page-nine-unit-one-text {
+    font-size: 1vw;
+    margin-top: 2vw;
+  }
+  #page-nine-unit-one-coming-soon {
+    font-size: 2vw;
+
+    margin-top: 2vw;
+  }
+  #cart-image {
+    width: 26vw;
+    height: 27vw;
+  }
+}
